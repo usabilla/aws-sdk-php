@@ -690,6 +690,11 @@ return array (
                     'type' => 'string',
                     'location' => 'aws.query',
                 ),
+                'MessageGroupId' => array(
+                    'required' => false,
+                    'type' => 'string',
+                    'location' => 'aws.query',
+                ),
                 'DelaySeconds' => array(
                     'type' => 'numeric',
                     'location' => 'aws.query',
